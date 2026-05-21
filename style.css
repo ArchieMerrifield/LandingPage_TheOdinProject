@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    height: 100vh;  /*Added because of previous exercise. Helps to define screen size and shrinkage*/
+    justify-content: space-between; /*Did nothing until adding height definition.*/
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    background-color: #3882F6;
+    color: white;
+}
+
+.header, .informationSection, .quoteSection, .signUpSection, .footer{
+    display: flex;
+    border: 2px, solid, black;
+}
+
+.header{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.roboto-body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}

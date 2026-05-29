@@ -20,6 +20,7 @@ button{
 .header, .informationSection, .quoteSection, .signUpSection, .footer{
     display: flex;
     border: 2px, solid, black;
+    padding: 0 10vw;
 }
 
 .header{
@@ -27,8 +28,22 @@ button{
     color: white;
     display: flex;
     flex-direction: column;
+    height: 25vh;
+    padding-top: 16px;
 }
 
+.navigationBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerInformation{
+    padding: 60px 0;
+}
+
+.footer{
+    height: 6vh;
+}
 
 .roboto-body {
   font-family: "Roboto", sans-serif;

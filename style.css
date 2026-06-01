@@ -28,7 +28,7 @@ button{
     color: white;
     display: flex;
     flex-direction: column;
-    height: 25vh;
+    min-height: 20vh;
     padding-top: 16px;
 }
 
@@ -37,8 +37,26 @@ button{
     justify-content: space-between;
 }
 
+.headerLogo{
+    font-weight: bold;
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    min-width: 30vw;
+}
+
+.links a{
+    gap:10px /**Can't get this working consistently. **/
+}
+
 .headerInformation{
-    padding: 60px 0;
+    padding: 80px 0;
+}
+
+.quoteSection{
+    background-color: #E5E7EB;
 }
 
 .footer{

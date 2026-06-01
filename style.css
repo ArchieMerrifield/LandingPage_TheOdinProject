@@ -15,6 +15,7 @@ a{
 button{
     background-color: #3882F6;
     color: white;
+    border: 1px, solid, white;
 }
 
 .header, .informationSection, .quoteSection, .signUpSection, .footer{
@@ -47,12 +48,18 @@ button{
     min-width: 30vw;
 }
 
-.links a{
-    gap:10px /**Can't get this working consistently. **/
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    gap:20px;
 }
 
 .headerInformation{
     padding: 80px 0;
+    display: flex;
 }
 
 .quoteSection{

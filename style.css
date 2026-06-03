@@ -24,12 +24,16 @@ button{
     padding: 0 10vw;
 }
 
+.informationSection, .quoteSection, .signUpSection{
+    flex: 1;
+}
+
 .header{
     background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: column;
-    min-height: 20vh;
+    min-height: 16vh;
     padding-top: 16px;
 }
 
@@ -44,7 +48,7 @@ button{
 
 .links{
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     min-width: 30vw;
 }
 
@@ -60,6 +64,12 @@ ul {
 .headerInformation{
     padding: 80px 0;
     display: flex;
+}
+
+.heroSection{
+}
+
+.headerImage{
 }
 
 .quoteSection{

@@ -19,6 +19,8 @@ button{
     border-radius: 8px;
     height: 32px;
     padding: 0 32px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 button.bannerButton{
@@ -35,8 +37,12 @@ button.bannerButton{
     flex: 1;
 }
 
-.header{
+.header, .footer{
     background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header{
     color: white;
     display: flex;
     flex-direction: column;
@@ -50,7 +56,9 @@ button.bannerButton{
 }
 
 .headerLogo{
-    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
 }
 
 .links{
@@ -80,12 +88,16 @@ ul {
 
 h1.heroText{
     margin: 0;
-    max-width: 220px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .heroSubText{
-    padding: 12px 0;
-    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-right: 16px;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .headerImage{
@@ -94,7 +106,6 @@ h1.heroText{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height:200px;
 }
 
 .informationSection{

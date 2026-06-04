@@ -21,7 +21,7 @@ button{
 .header, .informationSection, .quoteSection, .signUpSection, .footer{
     display: flex;
     border: 2px, solid, black;
-    padding: 0 10vw;
+    padding: 0 14vw;
 }
 
 .informationSection, .quoteSection, .signUpSection{
@@ -33,7 +33,7 @@ button{
     color: white;
     display: flex;
     flex-direction: column;
-    min-height: 16vh;
+    min-height: 24vh;
     padding-top: 16px;
 }
 
@@ -76,12 +76,18 @@ h1.heroText{
     max-width: 220px;
 }
 
+.heroSubText{
+    padding: 12px 0;
+    padding-right: 30px;
+}
+
 .headerImage{
     flex: 1;
     background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height:200px;
 }
 
 .quoteSection{

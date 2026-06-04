@@ -15,7 +15,10 @@ a{
 button{
     background-color: #3882F6;
     color: white;
-    border: 1px, solid, white;
+    border: 1px, solid, #3882F6;
+    border-radius: 8px;
+    height: 32px;
+    padding: 0 32px;
 }
 
 .header, .informationSection, .quoteSection, .signUpSection, .footer{

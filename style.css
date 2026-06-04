@@ -113,6 +113,13 @@ h1.heroText{
     align-items: center;
 }
 
+.informationTitle{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px;
+}
+
 .quoteSection{
     background-color: #E5E7EB;
     flex-direction: column;

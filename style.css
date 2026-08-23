@@ -136,10 +136,20 @@ h1.heroText{
     background-color: #3882F6;
     color: white;
     display: flex;
+    padding: 40px;
+    border-radius: 8px;
 }
 
 .bannerContent{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 40px;
+    padding: 0 20px;
+}
+
+.bannerButton{
+    margin: 0 40px;
+    padding: 0 30px;
 }
 
 .footer{

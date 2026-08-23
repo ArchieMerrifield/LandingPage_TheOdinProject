@@ -21,6 +21,7 @@ button{
     padding: 0 32px;
     font-size: 16px;
     font-weight: 600;
+    white-space: nowrap;
 }
 
 button.bannerButton{
@@ -168,7 +169,6 @@ h1.heroText{
 
 .bannerButton{
     margin: 0 40px;
-    padding: 0 30px;
 }
 
 .footer{

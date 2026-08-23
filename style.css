@@ -29,7 +29,6 @@ button.bannerButton{
 
 .header, .informationSection, .quoteSection, .signUpSection, .footer{
     display: flex;
-    border: 2px, solid, black;
     padding: 0 14vw;
 }
 
@@ -131,6 +130,16 @@ h1.heroText{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.signUpBanner{
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+}
+
+.bannerContent{
+    padding: 20px;
 }
 
 .footer{
